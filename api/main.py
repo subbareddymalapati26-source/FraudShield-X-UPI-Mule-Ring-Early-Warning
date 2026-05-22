@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from schemas import TransactionInput, PredictionOutput
-from model_loader import predict_transaction_risk
+from api.schemas import TransactionInput, PredictionOutput
+from api.model_loader import predict_transaction_risk
 
 app = FastAPI(
     title="FraudShield X API",
