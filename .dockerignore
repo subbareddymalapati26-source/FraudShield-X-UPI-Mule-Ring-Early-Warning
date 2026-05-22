@@ -1,0 +1,43 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Git
+.git/
+.gitignore
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Large data files
+data/PS_20174392719_1491204439457_log.csv
+data/upi_transactions_raw.csv
+data/upi_transactions_processed_step1.csv
+data/upi_transactions_processed_step2.csv
+data/upi_transactions_processed_step3.csv
+data/account_mule_risk_features.csv
+data/model_dataset_*.csv
+data/sender_account_summary.csv
+data/receiver_account_summary.csv
+
+# Model binaries
+models/*.pkl
+
+# Reports/images not needed in container
+reports/
+images/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs/temp
+*.log
+*.tmp
