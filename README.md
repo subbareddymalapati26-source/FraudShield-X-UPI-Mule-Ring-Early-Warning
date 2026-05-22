@@ -24,6 +24,13 @@ The goal is to build an early-warning system that can detect high-risk transacti
 
 ---
 
+## Live Demo
+
+- Streamlit App: https://fraudshield-x-upi.streamlit.app/
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fraudshield-x-upi.streamlit.app/)
+
+---
+
 ## Business Problem
 
 Digital payment fraud is increasing rapidly in instant payment ecosystems. Fraudsters often use mule accounts, repeated sender-receiver patterns, high-value transfers, night transactions, account-draining behavior, and burst activity to hide fraudulent movement of funds.
