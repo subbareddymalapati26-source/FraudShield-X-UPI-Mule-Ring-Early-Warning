@@ -1,0 +1,5 @@
+Risk Layer,Output File,Purpose
+Transaction Risk Layer,transaction_risk_level_summary.csv,"Detects suspicious transaction amount, balance, and transaction-type behavior"
+Temporal Burst Risk Layer,temporal_risk_fraud_summary.csv,Detects sudden high-frequency or high-value sender/receiver activity
+Graph / Network Risk Layer,network_risk_fraud_summary.csv,Detects mule-ring behavior using sender-receiver network relationships
+Final Hybrid Risk Layer,final_hybrid_risk_summary.csv,"Combines transaction, temporal, network, and account-level signals into one score"

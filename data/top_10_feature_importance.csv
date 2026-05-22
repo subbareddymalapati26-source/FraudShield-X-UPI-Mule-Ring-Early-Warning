@@ -1,0 +1,11 @@
+Feature,Importance
+Sender_Balance_Error,0.2384022846991144
+Amount_To_Sender_Balance_Ratio,0.22386509303366459
+Risky_Transaction_Type_Flag,0.09841977846348673
+Sender_Zero_Balance_After_Flag,0.09152809368291616
+Sender_Old_Balance,0.08167404088761737
+Sender_New_Balance,0.050009647612707354
+Amount_To_Receiver_Balance_Ratio,0.04313014433799364
+Edge_Total_Amount,0.023557909112324343
+Transaction_Amount,0.020194843084202874
+Edge_Avg_Amount,0.017385067196382144

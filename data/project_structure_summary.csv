@@ -1,0 +1,8 @@
+Folder,Purpose
+data,"Stores raw, processed, feature-engineered, summary, and model-result CSV files"
+models,"Stores trained model, feature list, and model metadata files"
+notebooks,"Stores Jupyter notebooks for EDA, feature engineering, and ML modeling"
+reports,"Stores final reports, documentation, and presentation exports"
+images,"Stores charts, plots, and visual assets"
+dashboard,Stores Streamlit or dashboard application files
+src,Stores reusable Python scripts and helper functions

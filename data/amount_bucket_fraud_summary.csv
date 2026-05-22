@@ -1,0 +1,6 @@
+Amount_Risk_Bucket,Genuine_Count,Fraud_Count,Total_Transactions,Fraud_Percentage
+Very Low,1272248,276,1272524,0.0217
+Low,1272011,513,1272524,0.0403
+Medium,1271315,1209,1272524,0.095
+High,1271440,1084,1272524,0.0852
+Very High,1267393,5131,1272524,0.4032

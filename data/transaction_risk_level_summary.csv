@@ -1,0 +1,5 @@
+Transaction_Risk_Level,Genuine_Count,Fraud_Count,Total_Transactions,Fraud_Percentage
+Critical Transaction Risk,172723,8200,180923,4.5323
+High Transaction Risk,47018,13,47031,0.0276
+Low Transaction Risk,91309,0,91309,0.0
+Medium Transaction Risk,188950,0,188950,0.0

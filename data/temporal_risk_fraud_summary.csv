@@ -1,0 +1,3 @@
+Temporal_Risk_Level,Genuine_Count,Fraud_Count,Total_Transactions,Fraud_Percentage
+Critical Temporal Risk,217676,8213,225889,3.6359
+High Temporal Risk,282324,0,282324,0.0

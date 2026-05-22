@@ -1,0 +1,11 @@
+Metric,Value
+Total Transactions Used,508213
+Total Genuine Transactions,500000
+Total Fraud Transactions,8213
+Fraud Percentage,1.6161
+Final Dataset Columns,66
+Strict ML Feature Count,31
+Best Model,Strict Random Forest
+Best Model Recall,0.997
+Best Model F1 Score,0.9985
+Best Model ROC-AUC,0.9997

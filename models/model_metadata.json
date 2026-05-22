@@ -1,0 +1,14 @@
+{
+    "project_name": "FraudShield X: UPI Mule Ring Early-Warning System Using Temporal Graph Risk Signals",
+    "model_name": "Strict Random Forest Classifier",
+    "target_column": "Fraud_Label",
+    "feature_count": 31,
+    "training_rows": 406570,
+    "testing_rows": 101643,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 0.997,
+    "f1_score": 0.9985,
+    "roc_auc": 0.9997,
+    "leakage_control": "Strict transaction-time features used. Fraud-label-derived features and final risk-score features excluded from ML training."
+}

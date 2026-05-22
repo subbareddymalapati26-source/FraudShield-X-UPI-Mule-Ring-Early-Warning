@@ -1,0 +1,5 @@
+Final_Risk_Level,Genuine_Count,Fraud_Count,Total_Transactions,Fraud_Percentage
+Critical Final Risk,14,3478,3492,99.5991
+High Final Risk,173566,4735,178301,2.6556
+Low Final Risk,153108,0,153108,0.0
+Medium Final Risk,173312,0,173312,0.0

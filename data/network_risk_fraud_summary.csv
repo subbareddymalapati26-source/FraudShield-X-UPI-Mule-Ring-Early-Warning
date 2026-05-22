@@ -1,0 +1,4 @@
+Network_Risk_Level,Genuine_Count,Fraud_Count,Total_Transactions,Fraud_Percentage
+High Network Risk,1,3816,3817,99.9738
+Low Network Risk,454535,0,454535,0.0
+Medium Network Risk,45464,4397,49861,8.8185

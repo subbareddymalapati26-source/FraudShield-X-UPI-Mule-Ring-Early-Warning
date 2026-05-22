@@ -1,0 +1,36 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Large raw data files
+data/PS_20174392719_1491204439457_log.csv
+data/upi_transactions_raw.csv
+
+# Model binary files
+models/*.pkl
+
+# Temporary files
+*.tmp
+*.logdata/model_dataset_*.csv
+data/upi_transactions_processed_step*.csv
+data/model_dataset_account_risk_sample.csv
+data/model_dataset_final_hybrid_risk.csv
+data/model_dataset_network_risk.csv
+data/model_dataset_temporal_risk.csv
+data/model_dataset_transaction_risk.csv
+data/sender_account_summary.csv
+data/receiver_account_summary.csv
+data/account_mule_risk_features.csv
