@@ -98,3 +98,18 @@ Docker Containerization
         |
         v
 Cloud Deployment Documentation
+
+-----------------------
+## Project Screenshots
+-----------------------
+### Streamlit Live App
+![Streamlit App](screenshots/streamlit_app_screenshot.png)
+
+### FastAPI Swagger Documentation
+![FastAPI Docs](screenshots/fastapi_docs_screenshot.png)
+
+### Power BI Executive Summary Dashboard
+![Power BI Executive Summary](screenshots/powerbi_dashboard_summary.png)
+
+### Power BI Fraud Risk Analysis Dashboard
+![Power BI Fraud Risk Analysis](screenshots/powerbi_risk_analysis.png)
