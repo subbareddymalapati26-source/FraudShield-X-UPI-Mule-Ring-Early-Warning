@@ -6,3 +6,6 @@ joblib
 jupyter
 notebook
 streamlit
+fastapi
+uvicorn
+pydantic
