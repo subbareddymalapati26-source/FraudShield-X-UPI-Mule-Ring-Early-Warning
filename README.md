@@ -53,7 +53,7 @@ FraudShield X is designed to help financial platforms:
 - 508,213 final sampled transactions
 - 500,000 genuine transactions
 - 8,213 fraud transactions
-- 1.6161\% fraud rate
+- 1.6161% fraud rate
 - 31 strict no-leakage ML features
 - 66 final dataset columns
 
@@ -124,26 +124,6 @@ Docker Containerization
         v
 Cloud Deployment Documentation
 ```
-
----
-
-## Project Screenshots
-
-### Streamlit Live Application
-
-![Streamlit App](screenshots/streamlit_app_screenshot.png)
-
-### FastAPI Swagger Documentation
-
-![FastAPI Docs](screenshots/fastapi_docs_screenshot.png)
-
-### Power BI Executive Summary Dashboard
-
-![Power BI Executive Summary](screenshots/powerbi_dashboard_summary.png)
-
-### Power BI Fraud Risk Analysis Dashboard
-
-![Power BI Fraud Risk Analysis](screenshots/powerbi_risk_analysis.png)
 
 ---
 
