@@ -9,31 +9,32 @@ The project combines:
 - Transaction-level fraud indicators
 - Account-level mule-risk features
 - Temporal burst-risk signals
-- Graph/network relationship features
-- Final hybrid risk scoring
+- Graph and network relationship features
+- Hybrid risk scoring techniques
 - Machine learning fraud classification
 - Model interpretation and feature importance
 - SQL fraud analytics layer
 - Power BI dashboard planning
-- Streamlit fraud risk web app
+- Streamlit fraud-risk web application
 - FastAPI prediction service
 - Docker containerization
 - Cloud deployment documentation
 
-The goal is to build an early-warning system that can detect high-risk transactions and mule-ring behavior before large-scale fraud escalation.
+The goal of the system is to identify high-risk transactions and detect mule-ring behavior before large-scale fraud escalation.
 
 ---
 
 ## Live Demo
 
-- Streamlit App: https://fraudshield-x-upi.streamlit.app/
+- Streamlit Application: https://fraudshield-x-upi.streamlit.app/
+
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fraudshield-x-upi.streamlit.app/)
 
 ---
 
 ## Business Problem
 
-Digital payment fraud is increasing rapidly in instant payment ecosystems. Fraudsters often use mule accounts, repeated sender-receiver patterns, high-value transfers, night transactions, account-draining behavior, and burst activity to hide fraudulent movement of funds.
+Digital payment fraud is increasing rapidly in instant payment ecosystems. Fraudsters often use mule accounts, repeated sender-receiver relationships, high-value transfers, night transactions, account-draining behavior, and burst activity patterns to hide fraudulent movement of funds.
 
 FraudShield X is designed to help financial platforms:
 
@@ -52,9 +53,33 @@ FraudShield X is designed to help financial platforms:
 - 508,213 final sampled transactions
 - 500,000 genuine transactions
 - 8,213 fraud transactions
-- 1.6161% fraud rate
+- 1.6161\% fraud rate
 - 31 strict no-leakage ML features
 - 66 final dataset columns
+
+---
+
+## Risk Feature Categories
+
+- Transaction Risk Features
+- Account Risk Features
+- Temporal Burst Features
+- Network Graph Features
+- Hybrid Risk Signals
+
+---
+
+## Model Explainability
+
+The project includes feature importance analysis and model interpretation techniques to identify the most influential fraud-risk indicators contributing to prediction outcomes.
+
+---
+
+## Deployment
+
+- Streamlit Cloud Deployment
+- FastAPI Prediction Service
+- Docker Containerization
 
 ---
 
@@ -64,7 +89,7 @@ FraudShield X is designed to help financial platforms:
 Raw UPI-Style Transaction Data
         |
         v
-Data Cleaning & EDA
+Data Cleaning and EDA
         |
         v
 Feature Engineering
@@ -79,7 +104,7 @@ Strict No-Leakage ML Training
 (Logistic Regression + Random Forest)
         |
         v
-Model Evaluation & Feature Importance
+Model Evaluation and Feature Importance
         |
         v
 SQL Fraud Analytics Layer
@@ -88,7 +113,7 @@ SQL Fraud Analytics Layer
 Power BI Dashboard Planning
         |
         v
-Streamlit Fraud Risk Web App
+Streamlit Fraud Risk Web Application
         |
         v
 FastAPI Prediction Service
@@ -98,18 +123,50 @@ Docker Containerization
         |
         v
 Cloud Deployment Documentation
+```
 
------------------------
+---
+
 ## Project Screenshots
------------------------
-### Streamlit Live App
+
+### Streamlit Live Application
+
 ![Streamlit App](screenshots/streamlit_app_screenshot.png)
 
 ### FastAPI Swagger Documentation
+
 ![FastAPI Docs](screenshots/fastapi_docs_screenshot.png)
 
 ### Power BI Executive Summary Dashboard
+
 ![Power BI Executive Summary](screenshots/powerbi_dashboard_summary.png)
 
 ### Power BI Fraud Risk Analysis Dashboard
+
 ![Power BI Fraud Risk Analysis](screenshots/powerbi_risk_analysis.png)
+
+---
+
+## Installation
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+---
+
+## Project Structure
+
+```text
+FraudShield-X-UPI-Mule-Ring-Early-Warning/
+│
+├── data/
+├── notebooks/
+├── screenshots/
+├── models/
+├── app.py
+├── requirements.txt
+├── README.md
+└── main.py
+```
